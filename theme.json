@@ -921,6 +921,11 @@
           "slug": "blue-950"
         },
         {
+          "color": "#002a3a",
+          "name": "Blue DEFAULT",
+          "slug": "blue-default"
+        },
+        {
           "color": "#eef2ff",
           "name": "Indigo 50",
           "slug": "indigo-50"

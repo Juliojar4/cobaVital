@@ -1,5 +1,4 @@
 <header class="banner pb-24 z-50">
-  <h1>banana</h1>
   @if (has_nav_menu('primary_navigation'))
     <div class="header-container bg-white w-auto flex py-3 lg:py-0 items-center justify-between">
       {{ the_custom_logo() }}

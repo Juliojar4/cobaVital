@@ -3,7 +3,11 @@ const config = {
   content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
     extend: {
-      colors: {}, // Extend Tailwind's default colors
+      colors: {
+        blue: {
+          DEFAULT: "#002A3A",
+        },
+      }, // Extend Tailwind's default colors
     },
   },
   plugins: [],
