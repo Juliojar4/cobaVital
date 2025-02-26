@@ -31,9 +31,9 @@
           "slug": "transparent"
         },
         {
-          "color": "#000",
-          "name": "Black",
-          "slug": "black"
+          "color": "#222731",
+          "name": "Black DEFAULT",
+          "slug": "black-default"
         },
         {
           "color": "#fff",
@@ -116,7 +116,7 @@
           "slug": "gray-300"
         },
         {
-          "color": "#9ca3af",
+          "color": "#009cde",
           "name": "Gray 400",
           "slug": "gray-400"
         },
@@ -149,6 +149,11 @@
           "color": "#030712",
           "name": "Gray 950",
           "slug": "gray-950"
+        },
+        {
+          "color": "#4d4d4d",
+          "name": "Gray DEFAULT",
+          "slug": "gray-default"
         },
         {
           "color": "#fafafa",
@@ -426,6 +431,11 @@
           "slug": "orange-950"
         },
         {
+          "color": "#ff6900",
+          "name": "Orange DEFAULT",
+          "slug": "orange-default"
+        },
+        {
           "color": "#fffbeb",
           "name": "Amber 50",
           "slug": "amber-50"
@@ -534,6 +544,11 @@
           "color": "#422006",
           "name": "Yellow 950",
           "slug": "yellow-950"
+        },
+        {
+          "color": "#ffe200",
+          "name": "Yellow DEFAULT",
+          "slug": "yellow-default"
         },
         {
           "color": "#f7fee7",
@@ -886,7 +901,7 @@
           "slug": "blue-300"
         },
         {
-          "color": "#60a5fa",
+          "color": "#009cde",
           "name": "Blue 400",
           "slug": "blue-400"
         },
@@ -919,6 +934,11 @@
           "color": "#172554",
           "name": "Blue 950",
           "slug": "blue-950"
+        },
+        {
+          "color": "#002a3a",
+          "name": "Blue DEFAULT",
+          "slug": "blue-default"
         },
         {
           "color": "#eef2ff",
@@ -1196,6 +1216,11 @@
           "slug": "pink-950"
         },
         {
+          "color": "#ae1f62",
+          "name": "Pink DEFAULT",
+          "slug": "pink-default"
+        },
+        {
           "color": "#fff1f2",
           "name": "Rose 50",
           "slug": "rose-50"
@@ -1287,6 +1312,11 @@
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
           "name": "Ui-monospace",
           "slug": "mono"
+        },
+        {
+          "fontFamily": "Georgia,sans-serif",
+          "name": "Georgia",
+          "slug": "georgia"
         }
       ],
       "fontSizes": [
