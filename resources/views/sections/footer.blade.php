@@ -1,6 +1,12 @@
-<footer class="fluid-container absolute bg-blue">
-  <div class="container mb-8 md:mb-0 w-[300px] md:w-full md:grid grid-cols-4 gap-5 py-8">
-    <div class="mb-8 md:mb-0">
+<footer class="fluid-container bg-blue">
+  <div class="max-w-[1000px] mx-auto py-[50px]">
+    <div>
+      <p>TESTE</p>
+    </div>
+
+
+
+    {{-- <div class="mb-8 md:mb-0">
       <img class="mb-5 w-32" src="@asset('images/logo-abbott-assinatura.png')" alt="">
       @if (has_nav_menu('footer_menu_1'))
         {!! wp_nav_menu([
@@ -30,7 +36,7 @@
           <img class="w-5 h-5" src="@asset('images/instagram.svg')" alt="">
         </a>
       </div>
-    </div>
+    </div> --}}
   </div>
   <div class="container pb-16">
     <p class="text-xs text-white">Preferências de Cookies</p>
