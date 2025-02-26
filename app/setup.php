@@ -46,6 +46,9 @@ add_action('after_setup_theme', function () {
      */
     register_nav_menus([
         'primary_navigation' => __('Primary Navigation', 'sage'),
+        'footer_menu_1' => __('Footer Menu 1', 'sage'),
+        'footer_menu_2' => __('Footer Menu 2', 'sage'),
+        'footer_menu_3' => __('Footer Menu 3', 'sage'),
     ]);
 
     /**

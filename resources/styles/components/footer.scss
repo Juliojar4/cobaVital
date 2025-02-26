@@ -1,0 +1,17 @@
+.footer-menu .menu-item {
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    max-width: 150px;
+
+    &:not(:first-child) {
+        padding-top: 5px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-decoration-color: #0056B3;
+    }
+}
