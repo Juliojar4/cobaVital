@@ -7,6 +7,7 @@
 namespace App;
 
 use function Roots\bundle;
+use App\Providers\RegisterACF;
 
 /**
  * Register the theme assets.
@@ -124,4 +125,8 @@ add_action('widgets_init', function () {
         'name' => __('Footer', 'sage'),
         'id' => 'sidebar-footer',
     ] + $config);
+});
+
+add_action('after_setup_theme', function () {
+    RegisterACF::init();
 });
