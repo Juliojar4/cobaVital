@@ -5,6 +5,6 @@
         @endif
     </div>
     <div class="flex flex-col items-center">
-        <h3 class="text-xl font-semibold leading-[1.3em] text-black">{!! $field_icon_box_text !!}</h3>
+        <h3 class="text-xl font-semibold leading-[1.25em] text-black">{!! $field_icon_box_text !!}</h3>
     </div>
 </article>
