@@ -8,6 +8,12 @@ const config = {
     "text-left",
     "text-right",
     "bg-[top_center]",
+    "gap-0",
+    "gap-[45px]",
+    "sm:flex-row",
+    "flex-col",
+    "p-[20px]",
+    "px-[5px]",
   ],
   theme: {
     extend: {
