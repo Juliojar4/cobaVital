@@ -18,3 +18,27 @@
         text-decoration-color: #0056B3;
     }
 }
+#mobileNavMenu {
+    position: absolute;
+    transition-timing-function: cubic-bezier(.4,0,.2,1)!important;
+}
+  
+#hamburgerIcon {
+    cursor: pointer;
+    display: block;
+}
+  
+#hamburgerIcon span {
+    display: block;
+    margin: 4px 0;
+}
+
+.menu-menu-1-container .header-mobile {
+    padding: 20px;
+    li {
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+}
+  
