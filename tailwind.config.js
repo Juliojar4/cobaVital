@@ -28,6 +28,9 @@ const config = {
         },
       },
       colors: {
+        black: {
+          DEFAULT: '#000000',
+        },
         pink: {
           DEFAULT: '#AE1F62',
         },
