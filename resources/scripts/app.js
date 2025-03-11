@@ -1,6 +1,8 @@
 import domReady from '@roots/sage/client/dom-ready';
 import './vendor/splide'
 import './components/faq-animation'
+import './components/header-menu-animation';
+
 /**
  * Application entrypoint
  */

@@ -108,6 +108,18 @@ add_action('after_setup_theme', function () {
  *
  * @return void
  */
+
+
+add_action('after_setup_theme', function () {
+    add_theme_support('custom-logo', [
+        'height'      => 100,
+        'width'       => 300,
+        'flex-height' => true, 
+        'flex-width'  => true, 
+    ]);
+});
+
+
 add_action('widgets_init', function () {
     $config = [
         'before_widget' => '<section class="widget %1$s %2$s">',
