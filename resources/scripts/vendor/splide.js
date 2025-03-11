@@ -14,5 +14,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
         document.querySelector('#custom-prev').addEventListener('click', () => splide.go('<'));
         document.querySelector('#custom-next').addEventListener('click', () => splide.go('>'));
-    }
+    }  
 });

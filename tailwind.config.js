@@ -32,7 +32,7 @@ const config = {
           DEFAULT: '#AE1F62',
         },
         orange: {
-          DEFAULT: '#FF6900',
+          DEFAULT: '#FF592F',
         },
         black: {
           DEFAULT: '#222731',
