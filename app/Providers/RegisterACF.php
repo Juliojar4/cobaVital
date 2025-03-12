@@ -5,6 +5,8 @@ namespace App\Providers;
 use App\ACF\Blocks\LargeIconBoxHome;  
 use App\ACF\Blocks\ImageSliderBlock;
 use App\ACF\Blocks\Faq;
+use App\ACF\Blocks\PostList;
+use App\ACF\Blocks\HomeHero;
 
 class RegisterACF {
     public static function init() {
@@ -12,6 +14,8 @@ class RegisterACF {
             LargeIconBoxHome::register();
             ImageSliderBlock::register();
             Faq::register();
+            PostList::register();
+            HomeHero::register();
         });
     }
 }

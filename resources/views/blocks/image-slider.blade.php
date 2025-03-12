@@ -2,7 +2,8 @@
     $images = $images ?? []; 
 @endphp
 
-<div class="container">
+<div class="container my-20">
+    <h2 class="uppercase text-center text-orange text-lg lg:text-2xl">onde comprar <span class="font-bold"> cobavital® </span> Sem sair de casa?</h2>
     @if (!empty($images))
         <!-- Desktop Grid: 3x2 -->
         <div class="hidden md:grid">

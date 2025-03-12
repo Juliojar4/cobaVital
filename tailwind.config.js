@@ -8,6 +8,9 @@ const config = {
     "text-left",
     "text-right",
     "bg-[top_center]",
+    "bg-yellow",
+    "text-[#FF592F]",
+    "bg-[#E2E7EC]"
   ],
   theme: {
     extend: {
