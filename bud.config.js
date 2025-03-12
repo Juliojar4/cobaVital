@@ -16,14 +16,15 @@ export default async (app) => {
   app
     .entry('app', ['@scripts/app', '@styles/app'])
     .entry('editor', ['@scripts/editor', '@styles/editor'])
-    .assets(['images']);
-
+    .assets(['images', 'fonts/**'])
+    .setPublicPath('/wp-content/themes/cobavital/public/')
+    .persist();
   /**
    * Set public path
    *
    * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
-  app.setPublicPath('/app/themes/sage/public/');
+ 
 
   /**
    * Development server settings

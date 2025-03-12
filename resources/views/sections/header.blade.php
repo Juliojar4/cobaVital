@@ -1,8 +1,8 @@
-<header class="container banner pb-24">
+<header class="container banner">
   <div class="relative">
     <div class="flex justify-between p-4 lg:py-12">
-      <img class="h-10" src="@asset('images/instante-saude.png')" alt="">
-      <img class="h-10" src="@asset('images/abbott.png')" alt="">
+      <img class="h-10 lg:h-auto" src="@asset('images/instante-saude.png')" alt="">
+      <img class="h-10 lg:h-auto" src="@asset('images/abbott.png')" alt="">
     </div>
 
     <div class="full-container hidden lg:flex bg-orange w-auto py-5">
@@ -25,7 +25,7 @@
     </div>
 
     <!-- Mobile Menu Items -->
-    <div id="mobileNavMenu" class=" lg:absolute lg:hidden right-0 bg-orange w-64 overflow-hidden max-h-0 transition-max-height duration-500 ease-in-out">
+    <div id="mobileNavMenu" class="z-50 lg:absolute lg:hidden right-0 bg-orange w-64 overflow-hidden max-h-0 transition-max-height duration-500 ease-in-out">
       <nav aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
         @if (has_nav_menu('primary_navigation'))
           {!! wp_nav_menu([
