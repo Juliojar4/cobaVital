@@ -1,5 +1,8 @@
-.large-icon-box img {
-    height: auto;
-    width: 100%;
-    max-width: 110px;
+.large-icon-box-container {
+    .large-icon-box img {
+        height: 100px;
+        max-width: 110px;
+        object-fit: contain;
+    }
 }
+

@@ -14,6 +14,7 @@ const config = {
     "flex-col",
     "p-[20px]",
     "px-[5px]",
+    "items-stretch",
   ],
   theme: {
     extend: {
