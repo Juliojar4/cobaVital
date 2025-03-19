@@ -1,5 +1,5 @@
-<footer class="fluid-container bg-black">
-  <div class="md:max-w-[1000px] md:px-3 md:flex-row lg:py-[50px] mx-auto pt-[25px] pb-[20px] px-3 gap-4 flex flex-col">
+<footer class="fluid-container bg-black mx-auto lg:py-[50px] md:px-3 pt-[25px] pb-[20px] px-3">
+  <div class="container md:flex-row  gap-4 flex flex-col">
     <div class="md:w-1/5 flex md:items-start justify-between items-center">
       <a class="block h-auto" href="https://www.abbottbrasil.com.br/" target="_blank">
         <img class="object-contain" src="@asset('images/Abbott2.png')" alt="Abbot Logo">
@@ -48,8 +48,31 @@
       </a>
     </div>
   </div>
-  <div class="mx-auto max-w-[1000px] pb-[60px] px-3">
-    <p class="text-xs text-white">Preferências de Cookies</p>
+  <div class="container mt-8">
+    <div class="mb-4">
+      <h5 class="text-white uppercase text-base font-bold pb-1">referência bibliográfica</h5>
+      <p class="text-white mb-4 text-sm">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros ex, faucibus ut congue ut, ultrices a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+        In vitae ultrices lorem. Etiam rhoncus elit vel dolor fermentum fermentum. Donec eu dui vitae magna aliquet fermentum. In ut faucibus enim, vel suscipit erat. Praesent eu commodo tortor. Vivamus ut 
+        placerat ipsum. Sed tempus arcu lacus, ut malesuada justo porttitor mattis.
+      </p>
+
+      <p class="text-white text-sm">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros ex, faucibus ut congue ut, ultrices a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+        In vitae ultrices lorem. Etiam rhoncus elit vel dolor fermentum fermentum. 
+      </p>
+    </div>
+
+    <div class="mb-4">
+      <h4 class="text-white font-bold text-sm">Abbott Center</h4>
+      <p class="text-white text-sm">Central de relacionamento com o cliente: 0800 703 1050</p>
+      <p class="text-white text-sm">abbottcenter@abbott.com</p>
+    </div>
+
+    <div>
+      <h4 class="text-white font-bold text-sm">Cobavital</h4>
+      <p class="text-white text-sm">Aprovado em: Novembro/22 – BBZ2246385 Material destinado ao público em geral</p>
+    </div>
   </div>
 </footer>
 

@@ -27,29 +27,8 @@
     font-style: normal;
 }
 
+ 
 
-h1, h2 {
-    font-family: 'Brandon Grotesque', sans-serif;
-    font-size: 3.3125em;
-    font-weight: 700;
-    line-height: 1.2em;
-    text-transform: uppercase;
-}
-
-h3, h4{
-    font-family: 'Brandon Grotesque', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-
-a {
-    font-family: 'Brandon Grotesque', sans-serif;
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-p {
+h1, h2 ,h3, h4, a, p{
     font-family: 'Brandon Grotesque', sans-serif;
 }

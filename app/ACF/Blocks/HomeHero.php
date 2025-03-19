@@ -16,6 +16,7 @@ class HomeHero
             'key'    => 'group_home_hero',
             'title'  => 'Hero da Home',
             'fields' => [
+                
                 [
                     'key'   => 'field_hero_image',
                     'label' => 'Imagem de fundo do hero',

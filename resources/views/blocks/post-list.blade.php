@@ -1,8 +1,8 @@
  
 
-<section id="blog" class="fluid-container relative bg-[#c3ccd833] py-12">
+<section id="blog" class="fluid-container relative py-12">
     <div class="container flex flex-col gap-5">
-        <h2 class="text-center text-black text-[3rem]">{{ get_field("post_list_title") }}</h2>
+        <h2 class="text-2xl font-bold text-orange uppercase">{{ get_field("post_list_title") }}</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-16 max-w-[500px] md:max-w-full w-full pb-5 m-0 m-auto">
             @foreach ($posts as $index => $post)
                 <div class="flex flex-row-reverse md:block items-center gap-5 md:gap-10  {{ $index == 2 ? "border-none" : ''}} border-b md:border-none border-[#212529]">

@@ -20,7 +20,7 @@ class PostList
                 [
                     'key'   => 'field_title_post_list',
                     'label' => 'Titulo da listagem dos posts',
-                    'name'  => 'post_list',
+                    'name'  => 'post_list_title',
                     'type'  => 'text',
                 ],
             ],
