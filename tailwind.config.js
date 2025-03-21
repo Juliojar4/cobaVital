@@ -17,7 +17,8 @@ const config = {
     "items-stretch",
     "bg-yellow",
     "text-[#FF592F]",
-    "bg-[#E2E7EC]"
+    "bg-[#E2E7EC]",
+    "text-xs"
   ],
   theme: {
     extend: {

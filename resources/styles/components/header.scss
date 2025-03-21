@@ -13,7 +13,63 @@
     .menu-item a {
         color: #FFFFFF;
         font-family: "Brandon Grotesque Bold", Sans-serif;
-        font-size: 26px;
+        font-size: 1.125rem;
         font-weight: 900;
+        text-transform: uppercase;
     }
 }
+
+
+.banner-cobavital {
+
+    @media (max-width: 768px) {
+        & {
+            gap: 15px;
+            align-items: center !important;
+        }
+    }
+    .text-banner {
+        .title-banner {
+            @media (max-width: 1024px) {
+                & {
+                    font-size: 1rem !important;
+                }
+            }
+        }
+    }
+    @media (max-width: 1024px) {
+        .image-banner-container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .mobile-image-banner img {
+                height: 90%;
+            }
+        }
+    }
+}
+
+.paragraph-container {
+    font-size: 1rem;
+
+    @media (max-width: 1024px) {
+        & {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+.imagem-hidden {
+    display: block;
+
+    @media (max-width: 1024px) {
+        & {
+            display: none;
+        }
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  

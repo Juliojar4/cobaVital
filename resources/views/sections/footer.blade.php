@@ -50,20 +50,6 @@
   </div>
   <div class="container mt-8">
     <div class="mb-4">
-      <h5 class="text-white uppercase text-base font-bold pb-1">referência bibliográfica</h5>
-      <p class="text-white mb-4 text-sm">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros ex, faucibus ut congue ut, ultrices a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
-        In vitae ultrices lorem. Etiam rhoncus elit vel dolor fermentum fermentum. Donec eu dui vitae magna aliquet fermentum. In ut faucibus enim, vel suscipit erat. Praesent eu commodo tortor. Vivamus ut 
-        placerat ipsum. Sed tempus arcu lacus, ut malesuada justo porttitor mattis.
-      </p>
-
-      <p class="text-white text-sm">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eros ex, faucibus ut congue ut, ultrices a lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
-        In vitae ultrices lorem. Etiam rhoncus elit vel dolor fermentum fermentum. 
-      </p>
-    </div>
-
-    <div class="mb-4">
       <h4 class="text-white font-bold text-sm">Abbott Center</h4>
       <p class="text-white text-sm">Central de relacionamento com o cliente: 0800 703 1050</p>
       <p class="text-white text-sm">abbottcenter@abbott.com</p>
@@ -71,7 +57,7 @@
 
     <div>
       <h4 class="text-white font-bold text-sm">Cobavital</h4>
-      <p class="text-white text-sm">Aprovado em: Novembro/22 – BBZ2246385 Material destinado ao público em geral</p>
+      <p class="text-white text-sm">Aprovado em: Março/25 – BRZ2246385-2 Material destinado ao público em geral</p>
     </div>
   </div>
 </footer>

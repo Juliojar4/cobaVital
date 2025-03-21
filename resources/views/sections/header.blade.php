@@ -1,8 +1,8 @@
 <header class="container banner">
   <div class="relative">
-    <div class="flex justify-between p-4 lg:py-12">
-      <img class="h-10 lg:h-auto" src="@asset('images/instante-saude.png')" alt="">
-      <img class="h-10 lg:h-auto" src="@asset('images/abbott.png')" alt="">
+    <div class="flex justify-between p-4 lg:py-8">
+      <img class="h-8 lg:h-auto" src="@asset('images/instante-saude.png')" alt="">
+      <img class="w-32 lg:w-44" src="@asset('images/logo-abbott-color.png')" alt="">
     </div>
 
     <div class="full-container hidden lg:flex bg-orange w-auto py-5">

@@ -7,6 +7,8 @@ use App\ACF\Blocks\ImageSliderBlock;
 use App\ACF\Blocks\Faq;
 use App\ACF\Blocks\PostList;
 use App\ACF\Blocks\HomeHero;
+use App\ACF\Blocks\Accordion;
+
 
 class RegisterACF {
     public static function init() {
@@ -16,6 +18,8 @@ class RegisterACF {
             Faq::register();
             PostList::register();
             HomeHero::register();
+            Accordion::register();
+
         });
     }
 }

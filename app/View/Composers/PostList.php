@@ -23,7 +23,7 @@ class PostList extends Composer
     {
         $query = new WP_Query([
             'post_type'      => 'post',
-            'posts_per_page' => -1,
+            'posts_per_page' => 3,
             'orderby'        => 'date',
             'order'          => 'DESC',
         ]);

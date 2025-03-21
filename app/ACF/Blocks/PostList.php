@@ -23,6 +23,12 @@ class PostList
                     'name'  => 'post_list_title',
                     'type'  => 'text',
                 ],
+                [
+                    'key'   => 'field_link_all_post',
+                    'label' => 'Link para todos os posts',
+                    'name'  => 'link_all_post',
+                    'type'  => 'url',
+                ],
             ],
             'location' => [
                 [

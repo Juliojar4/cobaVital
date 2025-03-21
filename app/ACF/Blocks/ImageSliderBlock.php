@@ -18,11 +18,27 @@ class ImageSliderBlock
             'title'  => 'Slider de Imagens',
             'fields' => [
                 [
-                    'key'   => 'field_image_gallery',
-                    'label' => 'Galeria de Imagens',
-                    'name'  => 'image_gallery',
-                    'type'  => 'gallery',
-                    'return_format' => 'id',
+                    'key'   => 'field_image_repeater',
+                    'label' => 'Imagens e Links',
+                    'name'  => 'image_repeater',
+                    'type'  => 'repeater',
+                    'layout' => 'table',
+                    'sub_fields' => [
+                        [
+                            'key'   => 'field_slider_image',
+                            'label' => 'Imagem',
+                            'name'  => 'slider_image',
+                            'type'  => 'image',
+                            'return_format' => 'id',
+                        ],
+                        [
+                            'key'   => 'field_slider_link',
+                            'label' => 'Link',
+                            'name'  => 'slider_link',
+                            'type'  => 'url',
+                        ],
+                    ],
+                    'min' => 1, // Pelo menos uma imagem precisa ser adicionada
                 ],
             ],
             'location' => [
@@ -40,7 +56,7 @@ class ImageSliderBlock
         acf_register_block_type([
             'name'            => 'image-slider',
             'title'           => __('Slider de Imagens', 'sage'),
-            'description'     => __('Bloco para exibir um slider de imagens.', 'sage'),
+            'description'     => __('Bloco para exibir um slider de imagens com links.', 'sage'),
             'render_callback' => [self::class, 'render'],
             'icon'            => 'images-alt2',
             'keywords'        => ['slider', 'imagens', 'carrossel'],
@@ -49,7 +65,7 @@ class ImageSliderBlock
 
     public static function render($block, $content = '', $is_preview = false, $post_id = 0)
     {
-        $images = get_field('image_gallery') ?: [];
+        $images = get_field('image_repeater') ?: [];
 
         echo view('blocks.image-slider', [
             'block'   => $block,
